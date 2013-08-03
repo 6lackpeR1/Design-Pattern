@@ -17,6 +17,7 @@ Step 1
 Create an interface.
 
 Shape.java
+
 	public interface Shape {
 		   void draw();
 	}
@@ -26,6 +27,7 @@ Step 2
 Create concrete classes implementing the same interface.
 
 Rectangle.java
+
 	public class Rectangle implements Shape {
 	
 		@Override
@@ -35,6 +37,7 @@ Rectangle.java
 	}
 
 Square.java
+
 	public class Square implements Shape {
 	
 		@Override
@@ -44,6 +47,7 @@ Square.java
 	}
 
 Circle.java
+
 	public class Circle implements Shape {
 	
 		@Override
@@ -57,6 +61,7 @@ Step 3
 Create a Factory to generate object of concrete class based on given information.
 
 ShapeFactory.java
+
 	public class ShapeFactory {
 	
 		//use getShape method to get objectct of type shape 
@@ -80,6 +85,7 @@ Step 4
 Use the Factory to get object of concrete class by passing an information such as type.
 
 FactoryPatternDemo.java
+
 	public class FactoryPatternDemo {
 	
 		public static void main(String[] args) {
@@ -108,6 +114,7 @@ FactoryPatternDemo.java
 Step 5
 ------
 Verify the output.
+
 	Inside Circle::draw() method.
 	Inside Rectangle::draw() method.
 	Inside Square::draw() method.
