@@ -13,4 +13,4 @@ gen/
 target/
 complie
 .DS_Store
-.metadata
+.metadata/*
