@@ -1,6 +1,16 @@
 *.class
+# generated files
+bin/
+gen/
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Mic Mac #
+*.swp
+target/
+complie
+.DS_Store
+.metadata
