@@ -1,3 +1,0 @@
-INDEX VERSION 1.126+/Users/apple/Code/Design-Pattern/.metadata/.plugins/org.eclipse.jdt.core
-3969079176.index
-936855726.index
